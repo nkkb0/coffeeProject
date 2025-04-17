@@ -2,6 +2,7 @@
   width: 1600px;
   height: 100vh;
   display: flex;
+  position: relative;
 }
 .right {
   position: relative;
@@ -21,4 +22,19 @@
   background-color: black;
   font-size: 20px;
   font-weight: 700;
+}
+
+.name {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Ubuntu", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  background-color: white;
+  z-index: 2;
+  padding: 20px 0 20px 55px;
+  margin-right: auto;
+
 }
