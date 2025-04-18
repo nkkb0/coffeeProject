@@ -89,3 +89,16 @@
   font-weight: 700;
   color: #FFA41B;
 }
+
+.description {
+  font-family: "Ubuntu", sans-serif;
+  display: flex;
+  margin: 20px 200px 31px 109px;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: italic;
+  text-align: left;
+  line-height: 31.4px;
+}
+
+  
