@@ -24,17 +24,25 @@
   font-weight: 700;
 }
 
-.name {
+.head {
   position: absolute;
   top: 10%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -10%);
   font-family: "Ubuntu", sans-serif;
   font-size: 48px;
   font-weight: 700;
   background-color: white;
   z-index: 2;
   padding: 20px 0 20px 55px;
-  margin-right: auto;
+}
 
+.rating {
+  display: flex;
+  align-items: center;
+}
+
+.num {
+  font-size: 14px;
+  font-weight: 400;
 }
