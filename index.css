@@ -5,8 +5,14 @@
   position: relative;
 }
 .right {
+  width: 40%;
   position: relative;
 }
+
+.left {
+  width: 60%;
+}
+
 .coffee {
   width: 100%;
   height: 100%;
@@ -25,10 +31,9 @@
 }
 
 .head {
-  position: absolute;
-  top: 10%;
-  left: 50%;
-  transform: translate(-50%, -10%);
+  margin-left: -148px;
+  margin-top: 52px;
+  position: relative;
   font-family: "Ubuntu", sans-serif;
   font-size: 48px;
   font-weight: 700;
@@ -42,7 +47,45 @@
   align-items: center;
 }
 
+.star {
+  margin-right: 4px;
+}
+
+.star1 {
+  margin-right: 12px;
+}
+
 .num {
   font-size: 14px;
   font-weight: 400;
+}
+
+.timeTo {
+  font-family: "Ubuntu", sans-serif;
+  display: flex;
+  margin: 20px 313px 31px 109px;
+  justify-content: space-around;
+}
+
+.group1 {
+  display: flex;
+}
+
+.icon {
+  margin-right: 15px;
+}
+
+.icon1 {
+  margin-right: 8px;
+}
+
+.insc {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.orange {
+  font-size: 14px;
+  font-weight: 700;
+  color: #FFA41B;
 }
