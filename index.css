@@ -175,7 +175,7 @@ input[type="checkbox"] {
 }
 
 .last{
-  margin: 25px 180px 31px 109px;
+  margin: 25px 190px 31px 109px;
 }
 
 .recept{
@@ -185,4 +185,9 @@ input[type="checkbox"] {
   text-align: left;
   margin-bottom: 14px;
   line-height: 21px;
+  padding-left: 5px;
+}
+
+.er {
+  padding-left: 20px;
 }
