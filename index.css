@@ -173,3 +173,16 @@ input[type="checkbox"] {
 .test{
   margin-left: 30px;
 }
+
+.last{
+  margin: 25px 180px 31px 109px;
+}
+
+.recept{
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 14px;
+  line-height: 21px;
+}
